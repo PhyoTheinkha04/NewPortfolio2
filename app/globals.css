@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Neutral Face Bold';
+  src: url('../NeutralFace-Bold.otf') format('woff2');
+  font-style: normal;
+
+};
+.background {
+  background-image: url('/Rectangle14.svg');
+  background-size: cover;
+  background-position: center;
+  /* Add any other background styles */
+}
