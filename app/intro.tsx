@@ -21,6 +21,7 @@ const Intro = () => {
         toggleActions: "restart none none reverse", // Reverse the animation when scrolling up
       },
     });
+
     
     gsap.to(".box2", {
       opacity: 0,
