@@ -2,10 +2,9 @@
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import ScrollSmoother from "gsap-trial/ScrollSmoother";
 const Intro = () => {
   useGSAP(() => {
-    gsap.registerPlugin(ScrollTrigger,);
+    gsap.registerPlugin(ScrollTrigger);
     gsap.to(".box", {
       opacity: 0,
       y: -50,
@@ -34,7 +33,6 @@ const Intro = () => {
         trigger: ".box2",
         start: "-30% top",
         end: "bottom top",
-        markers: true,
         toggleActions: "restart none none reverse", // Reverse the animation when scrolling up
       },
     });

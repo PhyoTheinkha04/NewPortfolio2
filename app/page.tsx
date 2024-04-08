@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Intro from "./intro";
 import Projects from "./projects";
+import Design from "./design";
 
 export default function Home() {
  
@@ -9,6 +10,7 @@ export default function Home() {
     <main className="w-[73%] mx-auto">   
       <Intro />
       <Projects />
+      <Design />
     </main>
   );
 }
