@@ -4,6 +4,7 @@ import { useGSAP } from "@gsap/react";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import Image from "next/image";
 
+
 const Projects = () => {
 useGSAP(() => {
     gsap.registerPlugin(ScrollTrigger);
